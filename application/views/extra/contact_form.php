@@ -14,36 +14,27 @@
 
 
     <p class="form_email">
-        <?= form_label('Email') ?>
+        <?= form_label('Email') ?><br/>
         <?= form_input('email', set_value('email')) ?>
     </p>
 
     <p class="form_subject">
-        <?= form_label('Subject') ?>
+        <?= form_label('Subject') ?><br/>
         <?= form_input('subject', set_value('subject')) ?>
     </p>
 
 
-    <p class="form_subject">
-        <?= form_label('Areas of interest') ?><br/>
-        <?= form_checkbox('interest[]', 'Gym Membership', set_checkbox('interest', 'Gym Membership')) ?>Gym Membership<br/>
-        <?= form_checkbox('interest[]', 'Easy Gym', set_checkbox('interest', 'Easy Gym')) ?>Easy Gym<br/>
-        <?= form_checkbox('interest[]', 'VIP Days', set_checkbox('interest', 'VIP Days')) ?>VIP Days<br/>
-        <?= form_checkbox('interest[]', 'Bar and Restaurant Bookings', set_checkbox('interest', 'Bar and Restaurant Bookings')) ?>Bar and Restaurant Bookings<br/>
-        <?= form_checkbox('interest[]', 'Squash and Raquetball', set_checkbox('interest', 'Squash and Raquetball')) ?>Squash and Raquetball<br/>
-        <?= form_checkbox('interest[]', 'Childrens Facilities', set_checkbox('interest', 'Childrens Facilities')) ?>Childrens Facilities<br/>
-        <?= form_checkbox('interest[]', 'Senior Programmes', set_checkbox('interest', 'Senior Programmes')) ?>Senior Programmes<br/>
-    </p>
 
 
     <p class="form_message">
-        <?= form_label('Message') ?>
+        <?= form_label('Message') ?><br/>
         <?= form_textarea('message', set_value('message')) ?>
     </p>
     
       <p class="form_subject">
-      
-        <?= form_checkbox('mailinglist', 'I do not wish to be on your mailing list', set_checkbox('mailinglist', 'I do not wish to be on your mailing list')) ?>Tick if you do not wish to receive future promotions from us<br/>
+         Tick if you do not wish to receive future promotions from us<br/>
+        <?= form_checkbox('mailinglist', 'I do not wish to be on your mailing list', set_checkbox('mailinglist', 'I do not wish to be on your mailing list')) ?>
+     
        
     </p>
 
