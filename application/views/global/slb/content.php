@@ -25,7 +25,7 @@
     ?>
 
 
-    <?php $body = str_replace("Grand Garden Design", "<strong>Grand Garden Design</strong>", "$body"); ?>
+    <?php $body = str_replace("SLB Business Advisory", "<strong>SLB Business Advisory</strong>", "$body"); ?>
 
 
   
@@ -45,7 +45,8 @@
        <?php if (isset($row->sidebox) && $row->sidebox != NULL) { ?> 
   </div>
         <div style="float:right; padding:0px 0px 0 10px;">
-            <img  src="<?= base_url() ?>images/photos/<?= $row->sidebox ?>"  />
+        <?=$this->load->view($row->sidebox)?>
+           
             <em><?php if (isset($row->caption)) {
             echo $row->caption;
         } ?></em>
@@ -55,3 +56,12 @@
     
     
     <div style="clear:both;"></div>
+    
+    <div>
+    
+<?php foreach ($content as $row): ?>
+    <?php if ($row->extra2 != NULL) { ?>
+        <?= $this->load->view('extra/' . $row->extra2) ?>
+    <?php } ?>
+<?php endforeach; ?>
+    </div>

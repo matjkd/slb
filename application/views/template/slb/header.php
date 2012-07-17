@@ -40,7 +40,8 @@ if (isset($meta_keywords) && $meta_keywords != NULL) {
 <link rel="apple-touch-icon" href="<?= base_url() ?>apple-touch-icon.png">
 
 <!-- Load google fonts-->
-<link href='http://fonts.googleapis.com/css?family=Fanwood+Text' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Arimo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
 
 <!-- CSS : implied media="all" er -->
 <link rel="stylesheet" href="<?= base_url() ?>css/custom-theme/jquery-ui-1.8.9.custom.css">

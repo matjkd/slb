@@ -16,7 +16,7 @@
 
 <body>
 	<input type="hidden" id="baseurl" value="<?=base_url()?>" />
-	<!--<img id="bgimg" src="<?= base_url() ?>css/garden/images/background.jpg" />-->
+	
 	<div id="shadowback">
 		<div id="header">
 

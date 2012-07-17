@@ -44,7 +44,7 @@ $route['contact'] = '/welcome/home';
 $route['menus'] =  '/welcome/home';
 $route['gallery'] = '/welcome/home';
 $route['news'] = '/welcome/home';
-$route['events'] = '/welcome/home';
+$route['debtcalc'] = '/welcome/home';
 $route['contact'] = '/welcome/home';
 $route['social'] = '/welcome/home';
 $route['testimonials'] = '/welcome/home';
@@ -59,12 +59,12 @@ $route['membership'] = '/welcome/home';
 $route['creche'] = '/welcome/home';
 $route['kids-parties'] = '/welcome/home';
 $route['fit-kids'] = '/welcome/home';
-$route['junior-programme'] = '/welcome/home';
-$route['juniors'] = '/welcome/home';
-$route['circuit-gym'] = '/welcome/home';
+$route['collections'] = '/welcome/home';
+$route['asset-finance'] = '/welcome/home';
+$route['factoring-invoice-discounting'] = '/welcome/home';
 $route['goals'] = '/welcome/home';
-$route['circuit-gym-membership'] = '/welcome/home';
-$route['personal-training'] = '/welcome/home';
+$route['debitor'] = '/welcome/home';
+$route['creditor'] = '/welcome/home';
 
 $route['404_override'] = '';
 
