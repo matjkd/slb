@@ -1,3 +1,4 @@
+<br/>
 <table class="invoicetable">
 
 
@@ -132,3 +133,79 @@
 	</tr>
 
 </table>
+
+<br/>
+
+<h1>How does it work</h1>
+<br/>
+<h2>Factoring</h2>
+<div style="margin:0 auto; width:724px;">
+<img  src="https://s3-eu-west-1.amazonaws.com/slbbusinessadvisory/Appendix_1.png"/>
+</div>
+
+<h2>Invoice Discounting</h2>
+<div style="margin:0 auto; width:724px;">
+<img style="margin:0 auto; width:724px;" src="https://s3-eu-west-1.amazonaws.com/slbbusinessadvisory/Appendix_2.png"/>
+</div>
+<h1>Asset Finance</h1>
+
+<p>Asset
+finance is less straight forward than Factoring and Invoice Discounting due to
+the wide range of assets that can be financed, and can offer an alternative to
+a bank overdraft or loan. </p>
+
+
+
+<p><strong>Asset
+finance is available to a wide range of businesses to fund assets such as:</strong></p>
+
+
+
+
+
+
+
+
+
+<ul><li>Vehicles</li><li>Machinery</li><li>A diverse
+range of equipment</li><li>Stock</li></ul>
+
+
+
+<p>Asset
+finance works by the customer sourcing the product and negotiating the purchase
+price.&#160; Upon doing so they will then file
+a report to the Asset Finance company who will then in turn arrange for an
+appropriate finance package.</p>
+
+
+
+<p>Existing
+company assets can also be financed providing that they have the appropriate
+amount of equity, which can then be released to help fund the business - a
+process known as sale and lease back.</p>
+
+
+
+<p>SLB will
+consult with business owners to find the right solution and before potential
+finance firms are recommended, we will work with their credit control
+departments to ensure they are ready to be audited and have the necessary
+requirements in place to qualify for the best possible rate from the lenders.</p>
+
+
+
+<p>After this
+process has been completed, SLB will work independently alongside your business
+to ensure that you receive the right deal with the funder and just as importantly,
+on the right terms.</p>
+
+
+
+<p>If you or your
+business is currently using Factoring and/or Invoice Discounting, SLB can still
+assist by reviewing your existing deal with a fresh pair of eyes. It is quite
+often the case that if a company uses invoice
+finance, they do not regularly research the latest deals available to them or
+reconcile this to their existing facility. </p><p><strong>Upon instructing SLB we shall:</strong></p><ul><li>Provide an update on invoice discounting and what is currently available on the market</li><li>Investigate your current facility and how much you are spending</li><li>Provide a comparison of the existing facility with what is presently available</li><li>Arrange for you to have a meeting with an experienced professional to discuss what might be the best facility for your business</li><li>Assist through to completion of a new facility or renegotiate terms with your current supplier</li></ul>
+

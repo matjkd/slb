@@ -6,7 +6,7 @@
 	<li><?= anchor('/factoring-invoice-discounting', 'Factoring & Invoice Discounting') ?>
 	</li>
 
-	<li><?= anchor('/asset-finance', 'Asset Finance') ?></li>
+	
 
 	<li><?= anchor('/collections', 'Collections') ?></li>
 	<li><?= anchor('/debtcalc', 'Debt Calculator') ?></li>

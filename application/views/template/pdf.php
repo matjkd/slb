@@ -85,35 +85,56 @@ table.collapse td {
 </style>
 </head>
 <body>
-<?=$name?>
-	<?=$phone?>
-		<?=$email?>
-		<?=$businessname?>
-		<?=$turnover?>
-		<?=$website?>
-		<?=$nature?>
-		<?=$banker?>
+<h3>Their Details</h3>
+<strong>Full Name:</strong> <?=$name?><br/>
+<strong>Contact Tel No: </strong><?=$phone?><br/>
+	<strong>Email:</strong>	<?=$email?><br/>
+	
+	<hr/>
+	<h3>Business Ltd and Non Ltd</h3>
+		<strong>Name:</strong><?=$businessname?><br/>
+		<strong>Annual turnover:</strong><?=$turnover?><br/>
+		<strong>Website:</strong><?=$website?><br/>
+		<strong>Nature of Business:</strong><?=$nature?><br/>
+		<strong>Current Banker:</strong><?=$banker?><br/>
 		
-		<?=$assetlendingYesNo?>
-		<?=$assetlendingLender?>
-		<?=$assetlendingAmount?>
+		<hr/>
+		<h3>Asset Based Lending Facility</h3>
+		<strong>yes/no:</strong><?=$assetlendingYesNo?><br/>
+		<strong>Name of Lender:</strong><?=$assetlendingLender?><br/>
+		<strong>Amount:</strong><?=$assetlendingAmount?><br/>
+		<hr/>
+		<strong>Total Monthly Incomings:</strong><?=$monthlyIn?><br/>
+		<strong>Total Monthly Outgoings:</strong><?=$monthlyOut?><br/>
 		
-		<?=$monthlyIn?>
-		<?=$monthlyOut?>
+		<hr/>
+		<h3>Court Action</h3>
+		<strong>Creditor Petition for winding up/bankruptcy:</strong> <?=$CreditorPetition?><br/>
+		<strong>Winding Up/Bankruptcy Order Made: </strong><?=$WindingUp?><br/>
+		<strong>Names of Petitioning Creditor:	</strong><?=$creditorNames?><br/>
+		<strong>Petitioning Solicitor:</strong><?=$petitioningSolicitor?><br/>
+		<strong>Reference:</strong> <?=$PetitionReferece?><br/>
+		<strong>Amount of Debt:</strong><?=$AmountOfDebt?><br/>
+<hr/>
+<h3>Secured Liabilities</h3>
 		
-		<?=$CreditorPetition?>
-		<?=$WindingUp?>
-		<?=$creditorNames?>
-		<?=$petitioningSolicitor?>
-		<?=$PetitionReferece?>
-		<?=$AmountOfDebt?>
-
 	<?=$liabilityentry2?>
+<hr/>
+<h3>Un-Secured Liabilities</h3>
+		
+	<?=$USliabilityentry?>
 
+<hr/>
+<h3>CCJs</h3>
+		
+	<?=$assetentry?>
 
-
-
-
+<hr/>
+<h3>Assets</h3>
+		
+	<?=$CCJentry?>
+	
+	<hr/>
 
 	<script type="text/php">
         if ( isset($pdf) ) {

@@ -3,13 +3,13 @@
 		<?= form_open('email/sendcalc'); ?>
 		<h3>Your Details</h3>
 		<p class="form_name">
-			<?= form_label('Full Name') ?>
+			<?= form_label('Full Name*') ?>
 			<br />
 			<?= form_input('name', set_value('name')) ?>
 		</p>
 
 		<p class="form_phone">
-			<?= form_label('Contact Tel No') ?>
+			<?= form_label('Contact Tel No*') ?>
 			<br />
 			<?= form_input('phone', set_value('phone')) ?>
 		</p>
@@ -54,6 +54,7 @@
 			<?= form_label('Yes/No') ?>
 			<br />
 			<?php $options = array(
+					'-' => 'N/A',
 					'yes'  => 'Yes',
 					'no'    => 'No'
 
@@ -384,27 +385,14 @@
 
 <div style="clear: both;"></div>
 
-<p class="form_subject">
-	Tick if you do not wish to receive future promotions from us<br />
-	<?= form_checkbox('mailinglist', 'I do not wish to be on your mailing list', set_checkbox('mailinglist', 'I do not wish to be on your mailing list')) ?>
 
 
-</p>
-
-Enter the word you see below
-<br />
-
-
-
-<input type="text" name="captcha" value="" />
-<br />
-<br />
-<?= form_label($captcha['image']) ?>
 
 <?= form_hidden('ip_address', $this->input->ip_address()) ?>
 <?= form_hidden('time', $captcha['time']) ?>
-<div id="contact_submit">
-	<?= form_submit('submit', 'Submit') ?>
+<hr/>
+<div id="contact_submit" >
+	<input type="submit" name="submit" value="Click here for advised solution" class="debtFormButton" role="button">
 </div>
 <br />
 <?=

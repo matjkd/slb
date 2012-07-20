@@ -44,16 +44,16 @@ h1 {
 }
 h2 {
     font-family: 'Arimo', serif;
-    font-size: 12px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 700;
     text-shadow: none;
     text-decoration: none;
-    text-transform: uppercase;
+    
     letter-spacing: 0em;
     word-spacing: 0em;
     line-height: 1.2;
-    color:#009ebb;
+  
 }
 p {
 
@@ -366,4 +366,19 @@ width:192px;
 .invoicetable table, .invoicetable td   {
 	border:1px solid #333;
 	padding:5px;
+}
+#contact_submit {
+	width:400px;
+	margin:0 auto;
+}
+.debtFormButton {
+	width:390px;
+	border:0px;
+	padding:5px;
+	background-color:#009ebb;
+	margin-bottom:15px;
+	font-size:1.8em;
+	text-align:center;
+	color:#fff;
+	clear:both;
 }

@@ -189,11 +189,16 @@ class Email extends My_Controller {
 		$data['liabilityentry'] = str_replace('<td><span class="delrow1">x</span></td>', '', $this->input->post('liabilityentry'));
 		$data['liabilityentry2'] = str_replace("<th></th>", "", $data['liabilityentry']);
 		$data['liabilityentry2'] = str_replace("<table", "<table cellpadding='0' cellspacing='0'", $data['liabilityentry2']);
-		echo $data['liabilityentry2'];
-		$data['USliabilityentry'] = $this->input->post('USliabilityentry');
-		$data['assetentry'] = $this->input->post('assetentry');
-		$data['CCJentry'] = $this->input->post('CCJentry');
 		
+		
+		$data['USliabilityentry'] = str_replace('<td><span class="delrow2">x</span></td>', '', $this->input->post('USliabilityentry'));
+		$data['USliabilityentry'] = str_replace("<th></th>", "", $data['USliabilityentry']);
+		
+		$data['assetentry'] = str_replace('<td><span class="delrow">x</span></td>', '', $this->input->post('assetentry'));
+		$data['assetentry'] = str_replace("<th></th>", "", $data['assetentry']);
+		
+		$data['CCJentry'] = str_replace('<td><span class="delrow">x</span></td>', '', $this->input->post('assetentry'));
+		$data['CCJentry'] = str_replace("<th></th>", "", $data['CCJentry']);
 			
 
 		$word = $this->input->post('captcha');
@@ -204,7 +209,7 @@ class Email extends My_Controller {
 
 
 			$this->session->set_flashdata('message', validation_errors());
-			$this->home();
+			redirect('welcome/main/fielderror', 'refresh');
 		} else {
 
 			// check captcha
@@ -234,25 +239,25 @@ class Email extends My_Controller {
 
 			//echo "from($config_email, $config_company_name)<br/>";
 
-			$this->postmark->to('mat@redstudio.co.uk');
+			$this->postmark->to($config_email);
 
 
 
-			//$this->postmark->cc('mat@redstudio.co.uk');
+			$this->postmark->cc('mat@redstudio.co.uk');
 		
 
 
            
 
-			$this->postmark->subject('' . $config_company_name . 'Contact Form');
-			$this->postmark->message_html($pdfcontent);
+			$this->postmark->subject('' . $config_company_name . ' Debt Calculator Form Submitted');
+			$this->postmark->message_html('A client has submitted a Debt Calculator to form to SLB. Please see the attached document.');
 			
 			$this->postmark->attach('./images/reports/quote.pdf');
 			
 			$this->postmark->send();
 			delete_files('./images/reports/');
 			$this->session->set_flashdata('message', 'Your message has been sent. Thank you.');
-			//redirect('welcome/main/contact', 'refresh');
+			redirect('welcome/main/thanks', 'refresh');
 		}
 	}
 
