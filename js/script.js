@@ -274,6 +274,12 @@ $(document)
 												$('#liabilityentry').val()
 														+ $("#liabilityDiv")
 																.html());
+										
+										$("input[name='lendername']").val('');
+										$("input[name='liability1']").val('');
+										$("input[name='liability2']").val('');
+										$("input[name='ref']").val('');
+										$("input[name='SLtotal']").val('');
 
 									});
 
@@ -311,6 +317,11 @@ $(document)
 												$('#USliabilityentry').val()
 														+ $("#USliabilityDiv")
 																.html());
+										
+										$("input[name='creditorname']").val('');
+										$("input[name='USLref']").val('');
+										$("input[name='USLamount']").val('');
+										
 
 									});
 
@@ -362,6 +373,13 @@ $(document)
 												$('#assetentry').val()
 														+ $("#assetDiv")
 																.html());
+										
+										$("input[name='assetDescription']").val('');
+										$("input[name='assetValue']").val('');
+										$("input[name='assetOutstanding']").val('');
+										$("input[name='assetEquity']").val('');
+										$("input[name='assetSole']").val('');
+										
 
 									});
 					
@@ -426,6 +444,13 @@ $(document)
 										$('#CCJentry').val()
 												+ $("#CCJDiv")
 														.html());
+								
+								$("input[name='CCJcourt']").val('');
+								$("input[name='CCJcourtref']").val('');
+								$("input[name='CCJamount']").val('');
+								$("input[name='CCJclaimant']").val('');
+								$("input[name='CCJsolicitor']").val('');
+								$("input[name='CCJref']").val('');
 
 							});
 					$('.delrow1').live(

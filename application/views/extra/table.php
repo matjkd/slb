@@ -147,7 +147,7 @@
 <div style="margin:0 auto; width:724px;">
 <img style="margin:0 auto; width:724px;" src="https://s3-eu-west-1.amazonaws.com/slbbusinessadvisory/Appendix_2.png"/>
 </div>
-<h1>Asset Finance</h1>
+<h2>Asset Finance</h2>
 
 <p>Asset
 finance is less straight forward than Factoring and Invoice Discounting due to
