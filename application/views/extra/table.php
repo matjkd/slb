@@ -187,7 +187,7 @@ process known as sale and lease back.</p>
 
 
 
-<p>SLB will
+<p><strong>SLB</strong> will
 consult with business owners to find the right solution and before potential
 finance firms are recommended, we will work with their credit control
 departments to ensure they are ready to be audited and have the necessary
@@ -196,16 +196,16 @@ requirements in place to qualify for the best possible rate from the lenders.</p
 
 
 <p>After this
-process has been completed, SLB will work independently alongside your business
+process has been completed, <strong>SLB</strong> will work independently alongside your business
 to ensure that you receive the right deal with the funder and just as importantly,
 on the right terms.</p>
 
 
 
 <p>If you or your
-business is currently using Factoring and/or Invoice Discounting, SLB can still
+business is currently using Factoring and/or Invoice Discounting, <strong>SLB</strong> can still
 assist by reviewing your existing deal with a fresh pair of eyes. It is quite
 often the case that if a company uses invoice
 finance, they do not regularly research the latest deals available to them or
-reconcile this to their existing facility. </p><p><strong>Upon instructing SLB we shall:</strong></p><ul><li>Provide an update on invoice discounting and what is currently available on the market</li><li>Investigate your current facility and how much you are spending</li><li>Provide a comparison of the existing facility with what is presently available</li><li>Arrange for you to have a meeting with an experienced professional to discuss what might be the best facility for your business</li><li>Assist through to completion of a new facility or renegotiate terms with your current supplier</li></ul>
+reconcile this to their existing facility. </p><p><strong>Upon instructing <strong>SLB</strong> we shall:</strong></p><ul><li>Provide an update on invoice discounting and what is currently available on the market</li><li>Investigate your current facility and how much you are spending</li><li>Provide a comparison of the existing facility with what is presently available</li><li>Arrange for you to have a meeting with an experienced professional to discuss what might be the best facility for your business</li><li>Assist through to completion of a new facility or renegotiate terms with your current supplier</li></ul>
 

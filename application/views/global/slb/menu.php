@@ -1,16 +1,16 @@
 
 <ul class="menuHover">
-	<li><?= anchor('/', 'Home') ?></li>
-	<li><?= anchor('/creditor', 'Creditor Services') ?></li>
-	<li><?= anchor('/debitor', ' Debitor Services') ?></li>
-	<li><?= anchor('/factoring-invoice-discounting', 'Factoring & Invoice Discounting') ?>
+	<li><?php if($menu == 'home') { ?> <span id="linkcurrent"> <?php } else { echo "<span>";}?><?= anchor('/', 'Home') ?></span></li>
+	<li><?php if($menu == 'creditor') { ?> <span id="linkcurrent"> <?php } else { echo "<span>";}?><?= anchor('/creditor', 'Creditor Services') ?></span></li>
+	<li><?php if($menu == 'debitor') { ?> <span id="linkcurrent"> <?php } else { echo "<span>";}?><?= anchor('/debitor', ' Debtor Services') ?></span></li>
+	<li><?php if($menu == 'factoring-invoice-discounting') { ?> <span id="linkcurrent"> <?php } else { echo "<span>";}?><?= anchor('/factoring-invoice-discounting', 'Factoring & Invoice Discounting') ?></span>
 	</li>
 
 	
 
-	<li><?= anchor('/collections', 'Collections') ?></li>
-	<li><?= anchor('/debtcalc', 'Debt Calculator') ?></li>
-	<li><?= anchor('/contact', 'Contact Us') ?></li>
+	<li><?php if($menu == 'collections') { ?> <span id="linkcurrent"> <?php } else { echo "<span>";}?><?= anchor('/collections', 'Collections') ?></span></li>
+	<li><?php if($menu == 'debtcalc') { ?> <span id="linkcurrent"> <?php } else { echo "<span>";}?><?= anchor('/debtcalc', 'Debt Calculator') ?></span></li>
+	<li><?php if($menu == 'contact') { ?> <span id="linkcurrent"> <?php } else { echo "<span>";}?><?= anchor('/contact', 'Contact Us') ?></span></li>
 
 
 	<?php

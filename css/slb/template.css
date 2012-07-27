@@ -19,6 +19,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a5e66', end
     position:absolute;
     z-index: -1;
 }
+
 hr {
 	border-top: 4px solid #CCC;
 }
@@ -152,6 +153,13 @@ background: #deecf3;
 #menutop a {
     text-decoration:none;
     color: #000000;
+}
+#menutop a:hover {
+    text-decoration:none;
+    color: #009ebb;
+}
+#linkcurrent a{
+	color:#009ebb;
 }
 
 .footermenu {

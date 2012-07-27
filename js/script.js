@@ -118,6 +118,7 @@ $(document).ready(function() {
  ******************************************************************************/
 $(document).ready(function() {
 
+	
 	$("#sidebox img").hover(function() {
 
 		$(this).stop().animate({
@@ -147,6 +148,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 
+	
 	// cache nav
 	var nav = $("#menutop");
 
@@ -154,7 +156,7 @@ $(document).ready(function() {
 	nav.find("a").each(function() {
 		if ($(this).find("ul").length > 0) {
 			// $("<span>").text("^").appendTo($(this).children(":first"));
-
+			
 			// show subnav on hover
 			$(this).mouseenter(function() {
 				$(this).stop().animate({
@@ -181,7 +183,7 @@ $(document).ready(function() {
 			// show subnav on hover
 			$(this).mouseenter(function() {
 				$(this).stop().css({
-					color : '#009ebb'
+					//color : '#009ebb'
 
 				}, 150);
 
@@ -190,7 +192,7 @@ $(document).ready(function() {
 			// hide submenus on exit
 			$(this).mouseleave(function() {
 				$(this).stop().css({
-					color : '#000000'
+					//color : '#000000'
 
 				}, 150);
 				$(this).stop().animate({

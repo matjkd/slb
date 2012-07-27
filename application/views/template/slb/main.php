@@ -18,11 +18,13 @@
 	<input type="hidden" id="baseurl" value="<?=base_url()?>" />
 	
 	<div id="shadowback">
-		<div id="header">
+	<a href="<?=base_url()?>">
+		<div id="header" >
 
 
 			
 		</div>
+		</a>
 <div id="menutop">
 
 
