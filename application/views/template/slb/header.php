@@ -62,7 +62,7 @@ if (isset($meta_keywords) && $meta_keywords != NULL) {
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-00000000-00']);
+  _gaq.push(['_setAccount', 'UA-19623681-16']);
   _gaq.push(['_trackPageview']);
 
   (function() {
