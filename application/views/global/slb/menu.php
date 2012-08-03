@@ -1,3 +1,4 @@
+<?php if(!isset($menu)) { $menu = "admin"; }?>
 
 <ul class="menuHover">
 	<li><?php if($menu == 'home') { ?> <span id="linkcurrent"> <?php } else { echo "<span>";}?><?= anchor('/', 'Home') ?></span></li>
