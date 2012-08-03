@@ -11,7 +11,7 @@ if (isset($metatitle) && $metatitle != NULL) {
     if (isset($title) && $title != NULL) {
         echo $title;
     } else {
-        echo "Grand Garden Design - Beautiful Garden Designs, Outdoor Buildings and Landscaping";
+        echo "SLB Business Advisory";
     }
 }
 ?></title>
@@ -19,7 +19,7 @@ if (isset($metatitle) && $metatitle != NULL) {
 if (isset($meta_description) && $meta_description != NULL) {
     echo $meta_description;
 } else {
-    echo "We are a highly experienced leading landscaping and garden designer based in Essex";
+    echo "SLB Business Advisory was formed in 2012. As a team, we are highly committed to providing maximum support to clients through what is often a turbulent and stressful process, and delivering a comprehensive solution that is tailored specifically to their requirements.";
 }
 ?>">
 
